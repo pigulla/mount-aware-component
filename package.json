@@ -1,0 +1,32 @@
+{
+  "name": "mount-aware-component",
+  "version": "1.0.0",
+  "description": "Add mount awareness to class-based React components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/MountAwareComponent.js --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pigulla/mount-aware-component.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "mount"
+  ],
+  "author": "Raphael Pigulla <pigulla@four66.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/pigulla/mount-aware-component/issues"
+  },
+  "homepage": "https://github.com/pigulla/mount-aware-component#readme",
+  "peerDependencies": {
+    "react": ">=0.13"
+  },
+  "devDependencies": {
+    "babel-cli": "6.5.1",
+    "babel-preset-es2015": "6.5.0"
+  }
+}
