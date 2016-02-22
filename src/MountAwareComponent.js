@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-export class MountAwareComponent extends Component {
+export default class MountAwareComponent extends Component {
     forceUpdateIfMounted() {
         if (this.__mounted) {
             this.forceUpdate();

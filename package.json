@@ -1,6 +1,6 @@
 {
   "name": "mount-aware-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add mount awareness to class-based React components",
   "main": "index.js",
   "scripts": {
